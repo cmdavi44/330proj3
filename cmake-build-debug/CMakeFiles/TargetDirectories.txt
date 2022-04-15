@@ -1,0 +1,3 @@
+/home/kerneldev/Documents/330Proj3Clion/cmake-build-debug/CMakeFiles/330Proj3Clion.dir
+/home/kerneldev/Documents/330Proj3Clion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kerneldev/Documents/330Proj3Clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
