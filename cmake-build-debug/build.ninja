@@ -49,15 +49,9 @@ cmake_ninja_workdir = /home/kerneldev/Documents/330Proj3Clion/cmake-build-debug/
 
 build cmake_object_order_depends_target_330Proj3Clion: phony || CMakeFiles/330Proj3Clion.dir
 
-build CMakeFiles/330Proj3Clion.dir/memory_manager10.c.o: C_COMPILER__330Proj3Clion_Debug /home/kerneldev/Documents/330Proj3Clion/memory_manager10.c || cmake_object_order_depends_target_330Proj3Clion
-  DEP_FILE = CMakeFiles/330Proj3Clion.dir/memory_manager10.c.o.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles/330Proj3Clion.dir
-  OBJECT_FILE_DIR = CMakeFiles/330Proj3Clion.dir
-
-build CMakeFiles/330Proj3Clion.dir/test.c.o: C_COMPILER__330Proj3Clion_Debug /home/kerneldev/Documents/330Proj3Clion/test.c || cmake_object_order_depends_target_330Proj3Clion
-  DEP_FILE = CMakeFiles/330Proj3Clion.dir/test.c.o.d
-  FLAGS = -g -std=gnu99
+build CMakeFiles/330Proj3Clion.dir/memory_manager.c.o: C_COMPILER__330Proj3Clion_Debug /home/kerneldev/Documents/330Proj3Clion/memory_manager.c || cmake_object_order_depends_target_330Proj3Clion
+  DEP_FILE = CMakeFiles/330Proj3Clion.dir/memory_manager.c.o.d
+  FLAGS = -g -std=gnu17
   OBJECT_DIR = CMakeFiles/330Proj3Clion.dir
   OBJECT_FILE_DIR = CMakeFiles/330Proj3Clion.dir
 
@@ -69,7 +63,7 @@ build CMakeFiles/330Proj3Clion.dir/test.c.o: C_COMPILER__330Proj3Clion_Debug /ho
 #############################################
 # Link the executable 330Proj3Clion
 
-build 330Proj3Clion: C_EXECUTABLE_LINKER__330Proj3Clion_Debug CMakeFiles/330Proj3Clion.dir/memory_manager10.c.o CMakeFiles/330Proj3Clion.dir/test.c.o
+build 330Proj3Clion: C_EXECUTABLE_LINKER__330Proj3Clion_Debug CMakeFiles/330Proj3Clion.dir/memory_manager.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/330Proj3Clion.dir
   POST_BUILD = :

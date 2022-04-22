@@ -35,7 +35,7 @@ __used __section("__versions") = {
 	{ 0x92997ed8, "_printk" },
 	{ 0x4b249969, "init_task" },
 	{ 0x828e22f4, "hrtimer_forward" },
-	{ 0x2ea2c95c, "__x86_indirect_thunk_rax" },
+	{ 0xb43f9365, "ktime_get" },
 	{ 0x7cd8d75e, "page_offset_base" },
 	{ 0x8a57a7f4, "pv_ops" },
 	{ 0xdad13544, "ptrs_per_p4d" },
@@ -49,4 +49,4 @@ __used __section("__versions") = {
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "80CE428ABE67B6294CC8FB3");
+MODULE_INFO(srcversion, "70A3A0BFD88CC8D56D4E8E9");
